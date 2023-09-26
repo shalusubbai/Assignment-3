@@ -23,7 +23,7 @@
 #nav-list a{
 	Color: cadetblue;
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.8em;
 	text-align: center;
 }
 #nav-list a:hover{
@@ -39,6 +39,7 @@
 }
 #menu-box{
 	margin: 5px ;
+	background-color: bisque;
 }
 #menu-box .menu-title{
 	color: brown;
@@ -59,10 +60,13 @@
 	max-width: 80%;
 	color: brown;
 }
+
 @media (max-width:767px) {
 
 #collapsable-nav{
 	background-color: rgb(200, 188, 188);
+	height:160px;
+	text-align: center;
 }
 }
 
